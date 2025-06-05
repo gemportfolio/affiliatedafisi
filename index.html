@@ -253,26 +253,6 @@
 					navbar.style.boxShadow = "none";
 				}
 			});
-            
-            // Scrolling ID Link Effect 
-            document.addEventListener("click", function (e) {
-                const anchor = e.target.closest('a[href^="#"]');
-                if (!anchor) return;
-
-                const target = document.querySelector(anchor.getAttribute('href'));
-                if (!target) return;
-
-                e.preventDefault();
-
-                const headerOffset = 100;
-                const elementPosition = target.getBoundingClientRect().top + window.pageYOffset;
-                const offsetPosition = elementPosition - headerOffset;
-
-                window.scrollTo({
-                    top: offsetPosition,
-                    behavior: "smooth"
-                });
-            });
 
             // Hero Chat Button
             const heroBtn = document.querySelector(".hero-btn");
