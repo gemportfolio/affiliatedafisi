@@ -37,7 +37,7 @@
 
 	<body>
 		<!-- NAVBAR -->
-		<nav class="navbar navbar-expand-lg pt-2 pb-2"></nav>
+		<nav class="navbar navbar-expand-lg pt-2 pb-2 fixed-top"></nav>
 		
 		<!-- HERO -->
 		<section class="hero">
@@ -239,21 +239,6 @@
 		<footer class="footer pt-5" id="connect"></footer>
         
 		<script>
-			// Sticky Navbar
-			const header = document.querySelector(".hero");
-			const headerHeight = header.getBoundingClientRect().height;
-			const navbar = document.querySelector(".navbar");
-
-			window.addEventListener('scroll', function() {
-				if(window.scrollY > headerHeight) {
-					navbar.classList.add("fixed-top");
-					navbar.style.boxShadow = "0 0 15px #d1d1d1";
-				} else {
-					navbar.classList.remove("fixed-top");
-					navbar.style.boxShadow = "none";
-				}
-			});
-
             // Hero Chat Button
             const heroBtn = document.querySelector(".hero-btn");
             const heroBtnIcon = document.querySelector(".hero-btn i");
