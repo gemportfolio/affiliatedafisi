@@ -335,7 +335,7 @@
             const observer = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
                 if (entry.isIntersecting && !entry.target.classList.contains('counted')) {
-                    entry.target.classList.add('counted'); // prevent re-triggering
+                    entry.target.classList.add('counted');
                     countUp(entry.target);
                 }
                 });
@@ -347,6 +347,7 @@
                 observer.observe(counter);
             });
 
+            // Navbar Collapse for Link Click
             document.addEventListener("DOMContentLoaded", function () {
                 const navLinks = document.querySelectorAll(".navbar-collapse .nl");
                 const navbarCollapse = document.querySelector(".navbar-collapse");
