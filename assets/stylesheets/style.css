@@ -46,25 +46,6 @@ a {
 	z-index: 9;
 }
 
-.navbar .container-fluid {
-    padding-left: 63px;
-    padding-right: 63px;
-}
-
-@media screen and (max-width: 629px) {
-	.navbar .container-fluid {
-        padding-left: 32px;
-        padding-right: 32px;
-	}
-}
-
-@media screen and (max-width: 431px) {
-	.navbar .container-fluid {
-        padding-left: 12px;
-        padding-right: 12px;
-	}
-}
-
 .nav-link,
 .navbar-brand {
 	color: var(--col2) !important;
@@ -125,6 +106,33 @@ a {
 	}
 }
 
+@media screen and (max-width: 767px) {
+	.navbar .container {
+		padding-inline: 0px;
+	}
+
+	.navbar-brand {
+		margin-left: 16px;
+	}
+
+	.navbar-toggler {
+		margin-right: 16px;
+	}
+
+	.navbar-nav {
+		border-top: solid 1px #65010139;
+		padding-top: 7px;
+	}
+
+	.nav-item {
+		padding-left: 12px;
+	}
+
+	.nav-link {
+		font-size: 18px;
+	}
+}
+
 /* HERO */
 
 .hero {
@@ -156,10 +164,6 @@ a {
 
 @media screen and (max-width: 991px) {
     .hero-lt {
-        width: 90%;
-    }
-    
-    .hero-lt {
         padding-bottom: 54px;
         margin-left: auto;
         margin-right: auto;
@@ -188,20 +192,12 @@ a {
 }
 
 @media screen and (max-width: 562px) {
-    .hero .container-fluid {
-        padding: 0 21px;
-    }
-    
-    .hero-lt {
-        width: 97%;
+    .hero .lt {
+        padding-left: 4px;
     }
 }
 
 @media screen and (max-width: 460px) {
-    .hero-lt {
-        width: 100%;
-    }
-    
 	.hero-lt h1 {
         font-size: 32px;
 	}
