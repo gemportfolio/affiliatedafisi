@@ -20,16 +20,16 @@ nav.innerHTML = `
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ms-0 ms-auto">
 				<li class="nav-item my-auto">
-					<a class="nav-link" href="./index.html">Home</a>
+					<a class="nl nav-link" href="./index.html">Home</a>
 				</li>
 				<li class="nav-item my-auto">
-					<a class="nav-link" href="#services">Our Services</a>
+					<a class="nl nav-link" href="#services">Our Services</a>
 				</li>
 				<li class="nav-item my-auto">
-					<a class="nav-link" href="#testimonials">Testimonials</a>
+					<a class="nl nav-link" href="#testimonials">Testimonials</a>
 				</li>
 				<li class="nav-item my-auto">
-					<a class="nav-link-btn lazy-el" href="#ebooks">
+					<a class="nl nav-link-btn lazy-el" href="#ebooks">
 						Buy My eBooks
 						<i class="bi bi-cart ps-1"></i>
 					</a>
