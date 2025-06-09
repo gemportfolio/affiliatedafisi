@@ -39,7 +39,7 @@ footer.innerHTML = `
                     <a href="https://www.instagram.com/officialafisiblessing/">
                         <i class="bi bi-instagram fs-3 pe-3"></i>
                     </a>
-                    <a href="https://x.com/blessingafisi/">
+                    <a href="https://x.com/BlessingAfisi?t=tcPM93JPFxD7874po8uMzw&s=09">
                         <i class="bi bi-twitter-x fs-3"></i>
                     </a>
                 </div>

@@ -46,7 +46,7 @@ nav.innerHTML = `
 						</a>
 					</li>
 					<li class="nav-item ct my-auto">
-						<a class="nav-icon" href="https://x.com/blessingafisi/">
+						<a class="nav-icon" href="https://x.com/BlessingAfisi?t=tcPM93JPFxD7874po8uMzw&s=09">
 							<i class="bi bi-twitter-x"></i>
 						</a>
 					</li>
