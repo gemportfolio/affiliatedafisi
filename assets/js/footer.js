@@ -4,7 +4,7 @@ footer.innerHTML = `
     <div class="container">
         <div class="row pb-3">
             <div class="col-lg-5 col-md-12 text">
-                <a class="fs-3 name" href="https://gemportfolio.github.io/affiliatedafisi.com">
+                <a class="fs-3 name" href="https://gemportfolio.github.io/affiliatedafisi">
                     Affiliatedafisi
                 </a>
                 <p>
