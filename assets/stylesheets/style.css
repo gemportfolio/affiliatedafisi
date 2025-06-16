@@ -264,7 +264,7 @@ a {
 }
 
 @media screen and (max-width: 767px) {
-    .consultation .lt pc, .extra p {
+    .consultation .lt p, .extra p {
         width: 100%;
 		text-align: end;
 		margin-left: auto;
