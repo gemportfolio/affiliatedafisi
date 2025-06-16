@@ -22,7 +22,6 @@ body {
 	overflow-x: hidden !important;
     margin: 0;
     padding: 0;
-	/* scroll-padding-top: 4rem; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -59,6 +58,10 @@ a {
 
 .navbar-toggler {
 	color: var(--col1);
+}
+
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(101, 1, 1, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
 .nav-link {
@@ -227,7 +230,8 @@ a {
 
 /* Scroll Effect */
 
-.services {
+.services,
+.coaching-rv {
 	scroll-margin-top: 72px; 
 }
 
@@ -236,15 +240,11 @@ a {
 	scroll-margin-top: 48px; 
 }
 
-.testimonials {
-	scroll-margin-top: 96px; 
-}
-
 /* SERVICES */
 
 .services h1,
 .ebooks h1,
-.testimonials h1 {
+.extra h1 {
     color: var(--col2);
 }
 
@@ -256,7 +256,7 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-    .consultation .lt p {
+    .consultation .lt p, .extra p {
         width: 75%;
 		text-align: end;
 		margin-left: auto;
@@ -264,7 +264,7 @@ a {
 }
 
 @media screen and (max-width: 767px) {
-    .consultation .lt p {
+    .consultation .lt pc, .extra p {
         width: 100%;
 		text-align: end;
 		margin-left: auto;
@@ -276,7 +276,7 @@ a {
 		flex-direction: column-reverse;
 	}
 
-    .consultation .lt p {
+    .consultation .lt p, .extra p {
         width: 78%;
 		text-align: center;
 		margin-right: auto;
@@ -324,6 +324,12 @@ a {
     }
 }
 
+/* Coaching Reviews */
+
+.coaching-rv {
+	background-color: var(--col2);
+}
+
 /* Footer */
 
 footer {
@@ -362,9 +368,3 @@ footer hr {
 .copyright a {
 	text-decoration: underline solid 1px var(--col3);
 }
-
-/* Plus ...... */
-
-/* .slick-dots {
-	margin-bottom: -144px;
-} */

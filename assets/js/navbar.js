@@ -2,12 +2,12 @@ const nav = document.querySelector(".navbar");
 
 nav.innerHTML = `
 	<div class="container py-2">
-		<a class="navbar-brand" href="https://gemportfolio.github.io/affiliatedafisi">
+		<a class="navbar-brand" href="https://gemportfolio.github.io/affiliatedafisi.com">
 			<!--span><img src="./assets/img/logo.png"></span-->
 			Affiliatedafisi
 		</a>
 		<button
-			class="navbar-toggler"
+			class="navbar-toggler border-0"
 			type="button"
 			data-bs-toggle="collapse"
 			data-bs-target="#navbarSupportedContent"
@@ -26,7 +26,7 @@ nav.innerHTML = `
 					<a class="nl nav-link" href="#services">Our Services</a>
 				</li>
 				<li class="nav-item my-auto">
-					<a class="nl nav-link" href="#testimonials">Testimonials</a>
+					<a class="nl nav-link" href="#coaching-rv">Reviews</a>
 				</li>
 				<li class="nav-item my-auto">
 					<a class="nl nav-link-btn lazy-el" href="#ebooks">
